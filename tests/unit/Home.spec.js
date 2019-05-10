@@ -1,4 +1,4 @@
-import { mount, shallowMount } from "@vue/test-utils"
+import { shallowMount } from "@vue/test-utils"
 import Vuetify from "vuetify"
 import Home from "../../src/views/Home.vue"
 import MyBooks from "../../src/components/MyBooks.vue"
@@ -15,15 +15,10 @@ describe("Home", () => {
             author_name: [""],
             first_publish_year: 0
         }]
-        const wrapper = shallowMount(Home, {
-            propsData: {
-                myBooks: books,
-                results: books
-            }
-        })
+        const wrapper = shallowMount(Home)
         wrapper.setData({
             myBooks: books,
-            results: books
+            results: { books }
         })
         return { wrapper }
     }

@@ -1,4 +1,4 @@
-import { shallowMount, mount } from "@vue/test-utils"
+import { mount } from "@vue/test-utils"
 import Vuetify from "vuetify"
 import SearchResults from "../../src/components/SearchResults.vue"
 import Vue from "vue"
