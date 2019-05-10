@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Book View renders the page 1`] = `
+<div class="ma-2"><button type="button" class="mb-3 v-btn theme--light">
+    <div class="v-btn__content">Go back</div>
+  </button>
+  <div class="title">
+    More information about
+    <em></em></div>
+  <div class="subheading mt-3"> was written by </div>
+  <div class="subheading mt-3">It was originally published in 0</div>
+  <div class="subheading mt-3">Its ISBN is 0</div>
+</div>
+`;

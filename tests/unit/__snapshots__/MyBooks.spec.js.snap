@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`My Books renders the component 1`] = `
+<div>
+  <h2>My Selected Books</h2>
+  <div>
+    <div class="v-table__overflow">
+      <table class="v-datatable v-table theme--light">
+        <thead>
+          <tr>
+            <th role="columnheader" scope="col" aria-label="Remove: Not sorted." aria-sort="none" class="column text-xs-left">Remove</th>
+            <th role="columnheader" scope="col" aria-label="Title: Sorted ascending. Activate to sort descending." aria-sort="ascending" tabindex="0" class="column sortable active asc text-xs-left">Title<i aria-hidden="true" class="v-icon material-icons theme--light" style="font-size: 16px;">arrow_upward</i></th>
+            <th role="columnheader" scope="col" aria-label="Author: Not sorted. Activate to sort ascending." aria-sort="none" tabindex="0" class="column sortable text-xs-left">Author<i aria-hidden="true" class="v-icon material-icons theme--light" style="font-size: 16px;">arrow_upward</i></th>
+            <th role="columnheader" scope="col" aria-label="First published: Not sorted. Activate to sort ascending." aria-sort="none" tabindex="0" class="column sortable text-xs-left">First published<i aria-hidden="true" class="v-icon material-icons theme--light" style="font-size: 16px;">arrow_upward</i></th>
+            <th role="columnheader" scope="col" aria-label="More info: Not sorted. Activate to sort ascending." aria-sort="none" tabindex="0" class="column sortable text-xs-left">More info<i aria-hidden="true" class="v-icon material-icons theme--light" style="font-size: 16px;">arrow_upward</i></th>
+          </tr>
+          <tr class="v-datatable__progress">
+            <th colspan="5" class="column"></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="text-xs-center"><i aria-hidden="true" class="v-icon v-icon--link material-icons theme--light" style="font-size: 16px;">remove_circle</i></td>
+            <td class="text-xs-left"></td>
+            <td class="text-xs-left"></td>
+            <td class="text-xs-left">0</td>
+            <td><button style="background-color: blue; color: white;">More Info</button></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="v-datatable v-table theme--light">
+      <div class="v-datatable__actions">
+        <div class="v-datatable__actions__select">Rows per page:<div role="combobox" class="v-input v-text-field v-select v-input--hide-details v-input--is-label-active v-input--is-dirty theme--light">
+            <div class="v-input__control">
+              <div class="v-input__slot">
+                <div class="v-select__slot">
+                  <div class="v-select__selections">
+                    <div class="v-select__selection v-select__selection--comma">5</div><input aria-label="Rows per page:" readonly="readonly" type="text" autocomplete="on" aria-readonly="false">
+                  </div>
+                  <div class="v-input__append-inner">
+                    <div class="v-input__icon v-input__icon--append"><i aria-hidden="true" class="v-icon material-icons theme--light">arrow_drop_down</i></div>
+                  </div>
+                </div>
+                <div class="v-menu">
+                  <div class="v-menu__content theme--light v-menu__content--auto " style="max-height: 200px; min-width: 75px; max-width: auto; top: 12px; left: 0px; transform-origin: top left; z-index: 0; display: none;">
+                    <div class="v-select-list v-card theme--light">
+                      <div role="list" class="v-list theme--light">
+                        <div role="listitem" class="primary--text"><a class="v-list__tile v-list__tile--link v-list__tile--active theme--light primary--text">
+                            <div class="v-list__tile__content">
+                              <div class="v-list__tile__title">5</div>
+                            </div>
+                          </a></div>
+                        <div role="listitem"><a class="v-list__tile v-list__tile--link theme--light">
+                            <div class="v-list__tile__content">
+                              <div class="v-list__tile__title">10</div>
+                            </div>
+                          </a></div>
+                        <div role="listitem"><a class="v-list__tile v-list__tile--link theme--light">
+                            <div class="v-list__tile__content">
+                              <div class="v-list__tile__title">25</div>
+                            </div>
+                          </a></div>
+                        <div role="listitem"><a class="v-list__tile v-list__tile--link theme--light">
+                            <div class="v-list__tile__content">
+                              <div class="v-list__tile__title">All</div>
+                            </div>
+                          </a></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="v-datatable__actions__range-controls">
+          <div class="v-datatable__actions__pagination">1-1 of 1</div><button disabled="disabled" type="button" class="v-btn v-btn--disabled v-btn--flat v-btn--icon theme--light" aria-label="Previous page">
+            <div class="v-btn__content"><i aria-hidden="true" class="v-icon material-icons theme--light">chevron_left</i></div>
+          </button><button disabled="disabled" type="button" class="v-btn v-btn--disabled v-btn--flat v-btn--icon theme--light" aria-label="Next page">
+            <div class="v-btn__content"><i aria-hidden="true" class="v-icon material-icons theme--light">chevron_right</i></div>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

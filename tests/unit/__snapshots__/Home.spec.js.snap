@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home renders the component 1`] = `
+<v-container-stub tag="div" mybooks="[object Object]" results="[object Object]">
+  <v-layout-stub tag="div" row="">
+    <v-flex-stub tag="div" fill-width="">
+      <div class="title mb-4">Welcome to Booj Books!</div>
+      <searchinput-stub></searchinput-stub>
+    </v-flex-stub>
+  </v-layout-stub>
+  <v-layout-stub tag="div" row="">
+    <v-flex-stub tag="div" md6="">
+      <div class="body-2">When you add a book to My Selected Books, you can view more information about the book from that list.</div>
+      <searchresults-stub results="[object Object]"></searchresults-stub>
+    </v-flex-stub>
+    <v-flex-stub tag="div" md6="" class="ml-5">
+      <mybooks-stub books="[object Object]"></mybooks-stub>
+    </v-flex-stub>
+  </v-layout-stub>
+</v-container-stub>
+`;
