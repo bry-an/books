@@ -22,7 +22,9 @@ exports[`Search Results renders the component 1`] = `
             <td></td>
             <td></td>
             <td>0</td>
-            <td><button style="background-color: blue; color: white;">Add to My Books</button></td>
+            <td><button type="button" class="v-btn v-btn--small theme--light" primary="">
+                <div class="v-btn__content">Add to My Books</div>
+              </button></td>
           </tr>
         </tbody>
       </table>

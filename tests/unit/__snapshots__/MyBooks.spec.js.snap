@@ -24,7 +24,9 @@ exports[`My Books renders the component 1`] = `
             <td class="text-xs-left"></td>
             <td class="text-xs-left"></td>
             <td class="text-xs-left">0</td>
-            <td><button style="background-color: blue; color: white;">More Info</button></td>
+            <td class="text-xs-left pa-0"><button type="button" class="mr-3 v-btn v-btn--small theme--light" primary="">
+                <div class="v-btn__content">More Info</div>
+              </button></td>
           </tr>
         </tbody>
       </table>

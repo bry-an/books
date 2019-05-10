@@ -4,7 +4,12 @@
     <v-form>
       <v-text-field label="Search" placeholder="e.g. Hemmingway" v-model="userSearch"></v-text-field>
     </v-form>
-    <v-btn @click="submitSearch" id="search-submit-btn" color="primary">Search</v-btn>
+    <v-btn
+      @click="submitSearch"
+      :disabled="!userSearch"
+      id="search-submit-btn"
+      color="primary"
+    >Search</v-btn>
     <!-- <button @click="submitSearch">Submit</button> -->
   </div>
 </template>
