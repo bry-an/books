@@ -1,6 +1,7 @@
 <template>
   <div>
     <h2>Your search found {{results.numOfResults}} results</h2>
+    <p v-if="results.numOfResults > 100">Here are the most relevant 100 results</p>
     <v-data-table :headers="headers" :items="booksArray">
       <template v-slot:items="props">
         <td>{{props.item.title}}</td>

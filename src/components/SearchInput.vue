@@ -10,7 +10,6 @@
       id="search-submit-btn"
       color="primary"
     >Search</v-btn>
-    <!-- <button @click="submitSearch">Submit</button> -->
   </div>
 </template>
 
