@@ -1,34 +1,10 @@
-# books
+# Booj Books
 
-## Project setup
-```
-npm install
-```
+## Hello Booj!
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+You can find a deployed version of this app here:
+http://bryanyunis.com/boojbooks/index.html
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Have fun searching for books!
 
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Bryan Yunis
