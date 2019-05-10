@@ -36,6 +36,7 @@ export default {
         result.numOfResults = response.data.numFound;
       });
       this.$emit("set-results", result);
+      this.userSearch = "";
     }
   }
 };

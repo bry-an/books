@@ -7,10 +7,7 @@
         <td>{{ props.item.author_name[0] }}</td>
         <td>{{ props.item.first_publish_year}}</td>
         <td>
-          <button
-            style="background-color:blue; color: white"
-            @click="$emit('add-to-my-books', props.item)"
-          >Add to My Books</button>
+          <v-btn primary small @click="$emit('add-to-my-books', props.item)">Add to My Books</v-btn>
         </td>
       </template>
     </v-data-table>

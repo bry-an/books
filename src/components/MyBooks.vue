@@ -13,11 +13,8 @@
         <td class="text-xs-left">{{props.item.title}}</td>
         <td class="text-xs-left">{{ props.item.author_name[0] }}</td>
         <td class="text-xs-left">{{ props.item.first_publish_year}}</td>
-        <td>
-          <button
-            style="background-color:blue; color: white"
-            @click="routeToViewBook(props.item)"
-          >More Info</button>
+        <td class="text-xs-left pa-0">
+          <v-btn class="mr-3" primary small @click="routeToViewBook(props.item)">More Info</v-btn>
         </td>
       </template>
     </v-data-table>
